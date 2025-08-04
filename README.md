@@ -11,7 +11,7 @@ Scan the local network to find open ports and understand which services are runn
 1. Found IP range using `ipconfig` (e.g., 192.168.1.0/24)
 2. Run scan using:
    ```bash
-   nmap -sS 192.168.1.0/24 -oN Task.txt
-   Saved results in Task.txt
+   nmap -sS 192.168.1.0/24 -oN task.txt
+   Saved results in task.txt
 
 Identified open ports and common services
